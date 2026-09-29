@@ -19,3 +19,4 @@ docker run -d --name secure-lab-app -p 8080:3000 -e APP_ENV=lab secure-lab-app:1
 ```
 
 Este proyecto usa credenciales ficticias solamente cuando la guia lo indique.
+Práctica realizada por: Richard Riascos
