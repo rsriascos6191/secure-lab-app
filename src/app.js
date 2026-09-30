@@ -7,7 +7,8 @@ const environment = process.env.APP_ENV || 'development';
 app.get('/', (req, res) => {
   res.json({
     application: 'Secure Lab App',
-    version: '1.0.0',
+    version: '1.1.0',
+    course: 'Specialization Security Lab',
     environment
   });
 });
